@@ -1,0 +1,19 @@
+
+/**
+ * SCSS partial that contains all of the base (structural) styles for this block.
+ */
+ .wp-block--bu-block-example--editor-partials {
+	background-color: #21759b;
+	color: #fff;
+	padding: 10px;
+
+	p {
+		@include bu_block_starter_fancy_mixin();
+		border-width: var(--theme-slug-border-width );
+	}
+
+	.wp-block--bu-block-example--editor-partials--title {
+		color: purple;
+		@extend %icon-plus;
+	}
+}

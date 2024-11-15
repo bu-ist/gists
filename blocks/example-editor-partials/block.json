@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "theme-slug/editor-partials",
+	"version": "0.1.0",
+	"title": "BU Theme Starter Block: Example - Editor Partials",
+	"category": "theme-slug-block-category",
+	"icon": "forms",
+	"description": "Example block using editor-partials.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"textField": {
+			"type": "string"
+		}
+	},
+	"textdomain": "theme-slug",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

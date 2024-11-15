@@ -1,0 +1,22 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block--bu-block-example--editor-partials--container{
+	font-family: monospace;
+	white-space: break-spaces;
+}
+.wp-block--bu-block-example--editor-partials--title {
+	color: orange !important;
+}
+.wp-block--bu-block-example--editor-partials--color-green {
+	color: green;
+}
+.wp-block--bu-block-example--editor-partials--color-red {
+	color: red;
+}
+.wp-block--bu-block-example--editor-partials--color-blue {
+	color: blue;
+}

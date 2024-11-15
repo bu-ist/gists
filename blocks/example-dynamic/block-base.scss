@@ -1,0 +1,22 @@
+/**
+ * SCSS partial that contains all of the base (structural) styles for this block.
+ */
+
+.wp-block-bu-block-example-dynamic-1 {
+	background-color: #21759b;
+	color: #fff;
+	padding: 10px;
+
+	p {
+
+		@include bu_block_starter_fancy_mixin();
+
+		border-width: var( --bu-block-starter-border-width );
+	}
+
+	.wp-block-bu-block-example-dynamic-1--title {
+		color: #800080;
+
+		@extend %icon-plus;
+	}
+}

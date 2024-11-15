@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "theme-slug/caterpillar",
+	"version": "0.1.0",
+	"title": "BU Theme Starter Block: Example - Caterpillar",
+	"category": "theme-slug-block-category",
+	"icon": "ellipsis",
+	"description": "Example block using editor-partials.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"textField": {
+			"type": "string"
+		}
+	},
+	"textdomain": "theme-slug",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
